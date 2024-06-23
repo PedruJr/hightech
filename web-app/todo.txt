@@ -1,0 +1,20 @@
+Landing Page Building
+  --------------------// DONE
+  -> Arrumar margin do conteudo em tela grande.
+  -> fixar conteudo no meio da tela com um padding quando a tela for grande,
+  garantido que o conteudo fique centralizado. 15 min
+  -> Arrumar botoes com nomeclatura correta e encaminhando
+  para suas respectivas sessões. 20 min
+  -> Arrumar hover dos botoes.
+  -> remover os icones. 5 min
+  -> Arrumar Quem somos com um texto de quem somos interessante pensar se
+  vai ser uma empresa ou a minha empresa. 2h
+  - cards. 20 min
+  -> JS para renderizar este card multiplas vezes com diferentes
+
+
+  -------------------// Falta
+  // NOVOS
+  -> Falta a aba contato.
+  -> Falta trocar a logo do naruto.
+  -> troque o logo. 30 min

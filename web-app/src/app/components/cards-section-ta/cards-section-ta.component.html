@@ -1,0 +1,18 @@
+<section class="cards-section">
+  <mat-card *ngFor="let card of cards" class="card">
+    <mat-card-header class="card-header">
+      <div class="card-icon-container">
+        <mat-icon class="card-icon">{{card.icon}}</mat-icon>
+      </div>
+      <h1 class="card-main-title">{{card.title}}</h1>
+      <h4 class="card-title-premium">{{card.premiumText}}</h4>
+      <h4 class="card-subtitle">{{card.cancelText}}</h4>
+      <h4 class="card-subtitle">{{card.subscriptionText}}</h4>
+      <h4 class="card-price">{{card.price}}</h4>
+    </mat-card-header>
+    <hr class="card-divider">
+    <mat-card-content class="card-content">
+      <p class="card-description">{{card.content}}</p>
+    </mat-card-content>
+  </mat-card>
+</section>

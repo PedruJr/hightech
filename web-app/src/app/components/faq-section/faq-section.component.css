@@ -1,0 +1,53 @@
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+  animation: openDrawer 0.5s ease-in-out;
+}
+
+@keyframes openDrawer {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 500px; /* Ajuste conforme necessário */
+  }
+}
+
+.rotate-0 {
+  transform: rotate(0deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+h1, h2, p {
+  color: #1f2937; /* Cor escura para contraste */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.bg-neutral-500:hover {
+  background-color: #4a4a4a;
+}
+
+.mat-icon {
+  transition: transform 0.3s ease-in-out;
+}

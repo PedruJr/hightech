@@ -1,0 +1,97 @@
+.cards-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5rem 2rem;
+  background-color: black;
+}
+
+.card {
+  background-color: #2d2d2d;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 20rem;
+  margin: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-icon-container {
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  border-radius: 50%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.card-main-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0.5rem 0;
+}
+
+.card-title-premium {
+  font-size: 1.2rem;
+  color: #ffafbd;
+  margin: 0.5rem 0;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0.2rem 0;
+}
+
+.card-price {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+.card-divider {
+  width: 80%;
+  margin: 0.5rem auto;
+  border-color: #444;
+  transition: margin 0.3s ease-in-out;
+}
+
+.card-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.card-description {
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.card:hover .card-content {
+  max-height: 200px; /* Ajuste conforme necessário */
+  opacity: 1;
+}
+
+.card:hover .card-divider {
+  margin: 1rem auto;
+}

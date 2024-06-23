@@ -1,0 +1,7 @@
+.group:hover .group-hover\:bg-green-500 {
+  background-color: #00ff00; /* Altere para a cor verde desejada */
+}
+
+.group-hover\:w-full {
+  width: 100%;
+}

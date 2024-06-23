@@ -1,0 +1,23 @@
+<section class="lg:pl-44 lg:pr-44 p-5 w-screen align-middle justify-center content-center bg-neutral-400">
+  <div>
+    <div class="text-center mb-8">
+      <h1 class="text-4xl font-bold mb-2">Alguma dúvida?</h1>
+      <p class="text-lg">Temos respostas que podem ajudar.</p>
+      <p class="text-lg">Encontre as respostas para suas dúvidas aqui.</p>
+    </div>
+
+    <div *ngFor="let faq of faqs" class="mb-4">
+      <div class="flex justify-between items-center bg-neutral-500 p-4 rounded-lg cursor-pointer" (click)="toggleDrawer(faq)">
+        <h2 class="text-xl font-semibold">{{faq.question}}</h2>
+        <mat-icon [ngStyle]="{'color':'black', 'transition': 'transform 0.3s'}"
+                  [ngClass]="{'rotate-180': faq.isOpen, 'rotate-0': !faq.isOpen}">
+          keyboard_arrow_down
+        </mat-icon>
+      </div>
+      <div class="bg-neutral-600 p-5 rounded-b-lg transition-all duration-500" [ngClass]="{'hidden': !faq.isOpen, 'visible': faq.isOpen}">
+        <p class="text-white mb-2" *ngFor="let answer of faq.answers">{{answer}}</p>
+      </div>
+      <hr class="w-80 border-b-gray-600 mx-auto mt-4">
+    </div>
+  </div>
+</section>

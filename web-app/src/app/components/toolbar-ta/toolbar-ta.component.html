@@ -1,0 +1,28 @@
+<div class="w-full">
+  <!-- TOOLBAR  -->
+  <div class="lg:pl-44 lg:pr-44 w-full z-0 bg-black h-16 flex justify-between relative ">
+    <img alt="Image" class="h-20 mt-0.5"
+         src="../../../assets/logo_final_black.png"
+    >
+    <!-- TOOLBAR BUTTONS -->
+    <div class="flex mt-4 mr-2">
+      <button *ngFor="let button of toolbarButtons"
+              class="text-white ml-5 font-medium hover:text-green-500 relative group" (click)="button.buttonFunction()">
+        <span>{{button.buttonName}}</span>
+        <div class="absolute left-0 bottom-0 h-0.5 bg-transparent group-hover:bg-green-500 group-hover:w-full transition-all duration-500 ease-in-out"></div>
+        <div class="absolute left-0 bottom-[-2px] h-0.5 bg-transparent group-hover:bg-green-500 group-hover:w-full transition-all duration-500 ease-in-out delay-100"></div>
+        <div class="absolute left-0 bottom-[-4px] h-0.5 bg-transparent group-hover:bg-green-500 group-hover:w-full transition-all duration-500 ease-in-out delay-200"></div>
+      </button>
+    </div>
+    <!-- SIDE MENU -->
+    <div style="display: none" class="h-dvh w-80 z-10 border-2 bg-black flex flex-col right-0 absolute">
+      <button class="text-white">
+        <mat-icon [ngStyle]="{'color':'white'}">home</mat-icon>
+      </button>
+      <button class="text-white">
+        <mat-icon [ngStyle]="{'color':'white'}">home</mat-icon>
+      </button>
+    </div>
+  </div>
+  <!-- MENU-->ve
+</div>
