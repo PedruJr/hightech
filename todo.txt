@@ -18,3 +18,7 @@ Landing Page Building
   -> Falta a aba contato.
   -> Falta trocar a logo do naruto.
   -> troque o logo. 30 min
+
+
+  --------------------//
+     Arruma animaçoes de levar as sessões da pagina, arrumar uma animação para apariçao do logo.
