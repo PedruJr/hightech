@@ -22,7 +22,7 @@ export class CardsSectionTaComponent {
   cards = [
     {
       icon: 'engineering',
-      premiumText: "- Desenvolvimento sob demanda",
+      premiumText: "Desenvolvimento sob demanda",
       cancelText: "- Flexibilidade para crescer conforme necessário",
       subscriptionText: "- Contratação de desenvolvedores especializados",
       title: "Outsourcing",
@@ -31,7 +31,7 @@ export class CardsSectionTaComponent {
     },
     {
       icon: 'smartphone',
-      premiumText: "- Soluções de TI personalizadas",
+      premiumText: "Soluções de TI personalizadas",
       cancelText: "- Escalabilidade conforme seu crescimento",
       subscriptionText: "- Gerenciamento completo de projetos",
       title: "Desenvolvimento de Apps",
@@ -40,7 +40,7 @@ export class CardsSectionTaComponent {
     },
     {
       icon: 'support_agent',
-      premiumText: "- Expertise em tecnologia",
+      premiumText: "Expertise em tecnologia",
       cancelText: "- Foco em inovação e eficiência",
       subscriptionText: "- Implementação de práticas ágeis",
       title: "Consultoria",
@@ -49,7 +49,7 @@ export class CardsSectionTaComponent {
     },
   ];
   constructor() {
-  }
 
+  }
 
 }

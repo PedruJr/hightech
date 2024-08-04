@@ -25,21 +25,24 @@
 .card-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 1.5rem;
-  text-align: center;
+  align-items: flex-start;
+  padding: 1.5  rem;
+
 }
 
 .card-icon-container {
-  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  background: rgb(34 197 94);
   border-radius: 50%;
   padding: 1rem;
   margin-bottom: 1rem;
-}
+ }
 
 .card-icon {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: white;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .card-main-title {
@@ -47,18 +50,21 @@
   font-weight: bold;
   color: #fff;
   margin: 0.5rem 0;
+  text-align: left;
 }
 
 .card-title-premium {
   font-size: 1.2rem;
-  color: #ffafbd;
+  color: #22c55e;
   margin: 0.5rem 0;
+  text-align: left;
 }
 
 .card-subtitle {
   font-size: 1rem;
   color: #fff;
   margin: 0.2rem 0;
+  text-align: left;
 }
 
 .card-price {
@@ -79,19 +85,23 @@
   overflow: hidden;
   transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
   opacity: 0;
+  text-align: left;
 }
 
 .card-description {
   color: #fff;
   font-size: 0.9rem;
   padding: 0.5rem 1rem;
+  text-align: left;
 }
 
 .card:hover .card-content {
   max-height: 200px; /* Ajuste conforme necessário */
   opacity: 1;
-}
+ }
 
 .card:hover .card-divider {
   margin: 1rem auto;
 }
+
+
