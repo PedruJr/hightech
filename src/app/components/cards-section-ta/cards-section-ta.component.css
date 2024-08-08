@@ -26,12 +26,12 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 1.5  rem;
+  padding: 1.5em;
 
 }
 
 .card-icon-container {
-  background: rgb(34 197 94);
+  background: var(--main-color);
   border-radius: 50%;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -55,7 +55,7 @@
 
 .card-title-premium {
   font-size: 1.2rem;
-  color: #22c55e;
+  color: var(--main-color);
   margin: 0.5rem 0;
   text-align: left;
 }

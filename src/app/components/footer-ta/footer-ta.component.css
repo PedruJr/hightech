@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  background-color: #ffb300;
+  background-color: var(--main-color);
   height: 16rem;
 }
 
@@ -45,11 +45,11 @@
 
 .contact-button {
   background-color: #ffffff !important;
-  color: #ffb300 !important;
+  color: var(--main-color) !important;
 }
 
 .contact-button mat-icon {
-  color: #ffb300;
+  color: var(--main-color);
 }
 
 .contact-button:hover mat-icon {
